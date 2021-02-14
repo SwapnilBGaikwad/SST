@@ -1,7 +1,7 @@
 package com.github.sst.index;
 
 import com.github.sst.file.FileHandler;
-import javafx.util.Pair;
+import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.TreeMap;
 

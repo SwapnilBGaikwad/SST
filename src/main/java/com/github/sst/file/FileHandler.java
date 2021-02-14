@@ -1,7 +1,8 @@
 package com.github.sst.file;
 
 
-import javafx.util.Pair;
+import org.apache.commons.lang3.tuple.ImmutablePair;
+import org.apache.commons.lang3.tuple.Pair;
 
 import java.io.*;
 import java.util.Iterator;
@@ -115,7 +116,7 @@ public class FileHandler implements Iterable<Pair<String, Long>> {
 
         @Override
         public Pair<String, Long> next() {
-            return new Pair<>(recordKey, offset);
+            return new ImmutablePair<>(recordKey, offset);
         }
     }
 }
