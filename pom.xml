@@ -9,9 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <distributionManagement>
          <repository>
-         <id>github</id>
-         <name>GitHub OWNER Apache Maven Packages</name>
-         <url>https://maven.pkg.github.com/SwapnilBGaikwad/SST</url>
+                  <id>github</id>
+                  <name>SST</name>
+                  <url>https://maven.pkg.github.com/SwapnilBGaikwad/SST</url>
          </repository>
     </distributionManagement>
     <build>
